@@ -19,10 +19,10 @@ Scalability: The modular design of the project allows for easy integration of ad
 # Technology Stack
 Programming Language: Python, chosen for its simplicity and extensive libraries for data science.
 # Libraries:
-NumPy for efficient numerical computations.
-Pandas for data manipulation and analysis.
-Scikit-Learn for implementing machine learning algorithms, including data splitting, model training, and evaluation.
-How It Works
+*NumPy for efficient numerical computations.
+*Pandas for data manipulation and analysis.
+*Scikit-Learn for implementing machine learning algorithms, including data splitting, model training, and evaluation.
+#How It Works
 Data Acquisition: The project starts by loading the Breast Cancer dataset using load_breast_cancer() from sklearn.datasets. This dataset contains 569 samples with 30 features each, describing characteristics such as tumor size and shape.
 
 Data Preparation: The data undergoes preprocessing to handle missing values, normalize features, and split the dataset into training and testing subsets. This step is crucial for ensuring the model's accuracy and generalization to new data.
