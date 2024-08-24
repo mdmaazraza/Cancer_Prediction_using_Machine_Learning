@@ -21,7 +21,10 @@ Programming Language: Python, chosen for its simplicity and extensive libraries 
 # Libraries:
 * NumPy for efficient numerical computations.
 * Pandas for data manipulation and analysis.
-* Scikit-Learn for implementing machine learning algorithms, including data splitting, model training, and evaluation.
+* sklearn.datasets for accessing the Breast Cancer dataset.
+* sklearn.model_selection (train_test_split) for splitting data into training and testing sets.
+* sklearn.linear_model (LogisticRegression) for implementing the Logistic Regression model.
+* sklearn.metrics (accuracy_score) for evaluating the model's performance.
 # How It Works
 Data Acquisition: The project starts by loading the Breast Cancer dataset using load_breast_cancer() from sklearn.datasets. This dataset contains 569 samples with 30 features each, describing characteristics such as tumor size and shape.
 
